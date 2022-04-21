@@ -1,0 +1,172 @@
+.card_main {
+  display: flex;
+  flex-direction: row;
+  background: gainsboro;
+
+  gap: 10px;
+}
+.left_div {
+  margin: 20px;
+  margin-left: 40px;
+  padding: 4px;
+  width: 70%;
+  height: 70vh;
+
+  background: white;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* margin: 4px, 4px;
+  padding: 4px;
+  background-color: green;
+  width: 500px;
+  height: 110px;
+  overflow-x: auto;
+  /* overflow-y: auto; */
+  /* text-align: justify; */
+}
+.right_div {
+  margin: 18px;
+  padding: 4px;
+  width: 30%;
+  height: 50vh;
+  background: white;
+  margin-right: 40px;
+}
+.placeorderdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placeorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 20px;
+  width: 140px;
+  font-size: 15px;
+  font-weight: 600;
+  background: rgb(248, 243, 241);
+}
+.placeorder:hover {
+  height: 43px;
+  width: 143px;
+  box-shadow: 5px 10px 15px 10px rgb(161, 139, 130);
+  border: none;
+  color: rgb(168, 243, 134);
+  cursor: pointer;
+}
+.card_item_img {
+  height: 120px;
+  width: 90px;
+}
+.card_item_cantainer_up_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+.card_item_cantainer_up_right {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_item_cantainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 8px;
+  background: rgb(235, 221, 210);
+}
+.card_item_cantainer:hover {
+  background: rgb(223, 198, 179);
+  box-shadow: 5px 10px 15px 10px rgb(223, 198, 179);
+}
+.card_item_cantainer_up {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.card_item_cantainer_down {
+  display: flex;
+  justify-content: space-between;
+}
+.card_item_cantainer_down_left {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.card_item_cantainer_down_right {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.card_item_cantainer_down_left_input {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+}
+.card_item_cantainer_up_right_rupe_logo {
+  height: 20px;
+}
+.card_item_cantainer_up_right_price {
+  display: flex;
+  margin-top: 20px;
+}
+.remove_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  background: rgb(248, 243, 241);
+}
+.remove_button:hover {
+  height: 32px;
+  width: 102px;
+  box-shadow: 5px 10px 15px 10px rgb(249, 249, 253);
+  border: none;
+  color: rgb(235, 43, 43);
+  cursor: pointer;
+}
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px 15px 10px rgb(250, 248, 248);
+}
+.input {
+  background: rgb(253, 252, 250);
+}
+.right_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right_div_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_div_middle {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
